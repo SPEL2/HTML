@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.cont {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  background: url(Image20231023093030.jpg) center/cover;
+}
+h1 {
+  font-size: 100px;
+  font-weight: 900;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: lavender;
+  text-shadow: 10px 10px 20px grey;
+  position: relative;
+  z-index: 2;
+}
+
+.overlai {
+
+  height: 100%;
+  width: 5%;
+  position: relative;
+  z-index: 1;
+  background: url(Image20231023093042.jpg) center/cover fixed;
+  transition: 5s;
+}
+.overlai:hover {
+  opacity: 0;
+  transition: 0s;
+}

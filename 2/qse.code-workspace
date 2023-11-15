@@ -1,0 +1,17 @@
+{
+  "folders": [
+	{
+		"path": "../../qse"
+	},
+	{
+		"path": "../../курс/animatoin"
+	},
+	{
+		"path": "."
+	}
+],
+  "settings": {
+    "liveServer.settings.port": 5501,
+    "liveServer.settings.multiRootWorkspaceName": "animatoin"
+  }
+}
